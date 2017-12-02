@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.backend{
+    color: #40c2cf;
+    font-weight: bold;
+    text-shadow:5px 5px 5px #FFFFFF;
+}
+.extras img{
+    height: 15vh;
+}
+.extras {
+    margin: 10px 0;
+}
+.Hierro, .Verduras{
+    margin: 0 10px 19px 10px;
+    padding: 2px;
+}
+.Hierro {
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+.Hierro h3, .Verduras h3{
+    font-weight: bold;
+    /* background: rgba(255, 225, 0, 0.95); */
+    border-radius:  2px;
+    padding: 15px 10px;
+   }
+.Hierro label, .Verduras label {
+    padding: 0 5px;
+    margin: 0;
+    color: #000000;
+   }
+.Hierro h3 {
+    background: #ffc107;
+    border-radius: 10px;
+}
+.imgNutrifami{
+    height: 20vh;
+}
+.linea {
+    background: white;
+}
+.momFeed {
+    background:transparent;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+.momFeed h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    background: rgb(255, 255, 255 0.5);
+    color: #40c2cf;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.momFeed h3 {
+    font-size: 4vw;
+    color: #626161;
+}
+.platos img {
+    width: auto;
+    height: 10vh;
+    border-radius: 15%;
+}
+.platos{
+    margin: 10px 0;
+}
+.proporciones .p2{
+    line-height: 20px;
+}
+.proporciones .cursiva{
+    font-style: italic;
+    font-weight: bold;
+}
+.subtitulo{
+    font-style: italic;
+}
+.Verduras h3 {
+    background: #ffc107;
+    border-radius: 10px;
+}
+.Verduras {
+    border-radius: 10px;
+    margin-top: 6px;
+}
+.verduras-mama{
+    margin: 10px 10px;
+    margin-top: 45px;
+}
+
+@media only screen and (min-width: 500px) {
+    #background-img{
+        background: transparent;
+    }
+    .Hierro h3, .Verduras h3{
+        font-weight:lighter;
+    }
+    .momFeed h3 {
+        font-size: 120%;
+        color: #626161;
+        padding: 1%;
+    }
+    .momFeed h1 {
+        margin-top: 0%;
+        font-size: 3vw;
+    }
+    .momFeed {
+        width: 70%;
+    }
+}

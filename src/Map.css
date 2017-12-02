@@ -1,0 +1,268 @@
+#start {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.autocomplete {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.borde {
+  border: 5px solid red;
+}
+
+.div-btn-signup {
+  position: absolute;
+  bottom: .5vh;
+}
+
+.btn-lyft {
+  background-color: #D90472;
+  color: white;
+  border-radius: none;
+}
+
+.navbar-brand {
+  margin: 0 auto;
+}
+
+nav {
+  border-bottom: 1px solid #999;
+}
+
+.form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info {
+  margin: 20px 0 20px 0;
+}
+
+.dropdown-menu {
+  min-width: 30px;
+}
+
+.dropdown-item {
+  padding: .25rem 1.2rem;
+}
+
+.dropdown-toggle {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.inputs {
+  margin: 5px 0;
+}
+
+.inp-l {
+  border-left: 0;
+}
+
+.inp-r {
+  border-right: 0;
+}
+
+.input-group-addon {
+  background-color: white;
+  border-right: 0;
+}
+
+#map {
+  width: 100%;
+  height: 90.95vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.value {
+  width: 50px;
+  border-right: 0;
+  font-weight: bold;
+}
+
+.sobre {
+  z-index: 100;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.over_map {
+  position: absolute;
+  top: 20px;
+  z-index: 99;
+}
+
+.logo-gift {
+  border-radius: 50%;
+  margin-top: -5px;
+  padding-top: 2%;
+  width: 9vh;
+  height: 9vh;
+  background-color: #fff;
+  border: 3px solid #ddd;
+}
+
+.pie {
+  padding-top: 40vh;
+}
+
+.div-input-address {
+  margin-top: 30vh;
+}
+
+.start {
+  color: blue;
+}
+
+.end {
+  color: #D90472;
+}
+
+.flex {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.address,
+.price {
+  border-bottom: 1px solid #ccc;
+  width: 100vw;
+  height: 10vh;
+}
+
+.price {
+  background-color: #eee;
+  height: 10vh;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-wrap: wrap;
+  padding-top: 2.5vh;
+}
+
+
+/* side Nav*/
+
+#mapa_header {
+  z-index: 2;
+  position: absolute;
+  top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#mapa_header #usuario_logo,
+#usuario_logo2 {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+i>#usuario_logo {
+  position: absolute;
+  left: 26px;
+  top: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 190px;
+  background-color: #E6E6E6;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav div {
+  padding: 2px 10px;
+  font-size: 15px;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#myModal {
+  z-index: 1000;
+}
+
+.modal-open .modal-backdrop {
+  z-index: 10;
+}
+
+
+/* Aydee */
+
+.filtro {
+  position: absolute;
+  z-index: 39;
+  bottom: 0;
+  border-top: 6px solid rgb(212, 212, 212);
+  background-color: #E6E6E6;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+li {
+  list-style: none;
+}
+
+#datos_usuario {
+  position: absolute;
+  bottom: 10%;
+  margin-top: 2%;
+}
+
+.anemia {
+  margin: 5px;
+  font-size: 16px;
+  width: 91px;
+}
+
+.recomendation {
+  margin-top: 2%;
+  margin: 10px;
+}
+
+#usuario_logo {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+
+.mama {
+  position: absolute;
+  left: -13px;
+  top: -239%;
+}

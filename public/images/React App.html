@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:3000/monFeed -->
+<html lang="en"><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+    <link rel="stylesheet" href="./React App_files/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="./React App_files/font-awesome.min.css">
+    <link href="./React App_files/css" rel="stylesheet">
+    <link href="./React App_files/css(1)" rel="stylesheet">
+    
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+</style><style type="text/css">.mama {
+    position: absolute;
+    left: -29px;
+    top: -163%;
+}
+
+.conayus-map{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #40c2cf;
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    /* z-index: 5; */
+    text-shadow:5px 5px 10px black;
+}</style><style type="text/css">body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;   
+    /* background-color: #e1e4e7; */
+    background-color: #eff3f3;
+    /* background-color: #e1e4e7; 
+    background-color: #b4b6b9; */
+    margin: 0 auto;
+    color: rgb(0, 0, 0);  
+
+    }
+h2{
+    font-size: 500%;
+}
+
+h1{
+    font-size: 350%;
+    
+}
+
+
+
+
+.home-p{
+    /* color: #FFFFFF;  */
+    color:#626161; 
+    font-family: Arial;   
+}
+
+.conayus-home{
+    text-shadow:5px 5px 10px #FFFFFF;
+}
+
+section{
+        /* border-top: 1px solid #b4b6b9;
+        border-bottom: 1px solid #b4b6b9; */
+        
+        margin: 5%;  
+        /* background-color: #e1e4e7;  */
+        padding: 10%;
+        border-radius: 20px; 
+}
+body .form{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #40c2cf;  
+}
+
+.btn{
+    /* background: #FF0000; */
+    color: rgb(255, 255, 255);
+}
+
+.btn .btn-lg .btn-block .btn-ingresar{
+    width: 100%;
+}
+
+.text-vida{
+    text-align: center;
+    color:  #808080  ;
+    margin-top: 20%;
+    padding: 10%;
+}
+
+.first{
+    margin-top: 40%;
+}
+div > .text-vida{
+ border-top: 1px solid #b4b6b9;
+
+}
+@media only screen and (min-width: 500px) {
+        /* h2{
+            font-size: 500%;
+        }
+        
+        h1{
+            font-size: 350%;
+            
+        } */
+        section{
+            /* border-top: 1px solid #b4b6b9;
+            border-bottom: 1px solid #b4b6b9; */
+            
+            margin: 5%;  
+            /* background-color: #e1e4e7;  */
+            padding: 2%;
+            border-radius: 20px; 
+            
+    }
+    section{
+        margin: 0 auto;
+        width: 30%;
+    }
+
+        .first{
+            margin-top: 10%;
+            padding: 5%;
+            
+        }
+
+        .text-vida{
+
+            margin-top: 5%;
+            padding: 2%;
+        }
+        body{
+            text-align: center;
+  
+            }
+
+        
+}</style><style type="text/css">.conayus-name{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #40c2cf;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    text-shadow:5px 5px 10px #000000;
+}
+.btnVolver {
+    position: absolute;
+    top: 4%;
+    left: 1%;
+}
+a{
+    height: 50px;
+}
+/* modificado por gladys */
+.signup-h{
+    color: white;
+}
+.btnVolver a {
+    color: black;
+}
+
+.btnVolver a:hover {
+    font-size: 1em;
+}
+
+.volver{
+    font-size: 4em;
+} 
+
+ .btnSiguiente{
+    background-color: #FF00BF;
+    color: white;
+    border: none;
+    width: 90%;
+    height: 50px;
+    border-radius: 0.3em;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-top: 20px; 
+}
+.btn-ingresar{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+p{
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.form-group{
+margin-top: 0px;
+height: 50px;
+}
+
+/* .btn[disabled], fieldset[disabled] .btn {
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: .65;
+    background-color: rgba(255, 0, 191, 0.53);
+    color: #FFF9C7;
+} */
+
+/* Aydee */
+
+.backend{
+    font-size: 3em;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.signuph2{
+    margin: 35px 0;
+}
+
+.singupbtn{
+    margin-top: 60px;
+}
+
+.lock{
+    font-size: 1.3em;
+}
+
+.singupbtn p{
+    margin-bottom: 30px;
+}
+
+.btn-social{
+    border-radius: 25px;
+    margin-left: 10px;
+    color: #ffffff;
+    padding: 7px 0;
+    width: 200px;
+}
+
+.btn-social a{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-social i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.doodle{
+    background: rgb(201, 54, 17);
+    margin-bottom: 15px;
+}
+
+.face{
+    background: rgb(13, 51, 163);
+}
+
+input, .inputName, .inputEmail{
+    background: white;
+}
+
+@media only screen and (min-width: 500px) {
+    .conayus-name{
+        width: 100%;
+        height: 100%;
+        margin-top: 8%;
+    }
+#text-container-component{
+    margin: 0 auto;
+    width: 50%;
+}
+}</style><style type="text/css">#start{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  .autocomplete {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  
+  .borde{
+    border : 5px solid red;
+  }
+  .div-btn-signup{
+    position: absolute;
+    bottom: .5vh;
+  }
+  .btn-lyft{
+    background-color: #D90472;
+    color:white;
+    border-radius: none;
+  }
+  .navbar-brand{
+    margin:0 auto;
+  }
+  nav{
+    border-bottom: 1px solid #999;
+  }
+  .form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .info{
+    margin:20px 0 20px 0;
+  }
+  .dropdown-menu{
+    min-width: 30px;
+  }
+  .dropdown-item{
+    padding:.25rem 1.2rem;
+  }
+  .dropdown-toggle{
+    background-color: white;
+    border:1px solid #ccc;
+  }
+  .inputs{
+    margin:5px 0;
+  }
+  .inp-l{
+    border-left: 0;
+  }
+  
+  .inp-r{
+    border-right: 0;
+  }
+  .input-group-addon {
+    background-color: white;
+    border-right: 0;
+  }
+  #map{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+	  left: 0;
+  }
+  .value{
+    width: 50px;
+    border-right: 0;
+    font-weight: bold;
+  }
+  .sobre{
+    z-index: 100;
+  }
+  .wrapper {
+    position: relative;
+  }
+  .over_map {
+    position: absolute;
+    top: 20px;
+    z-index: 99;
+  }
+  .logo-gift{
+    border-radius: 50%;
+    margin-top:-5px;
+    padding-top: 2%;
+    width: 9vh;
+    height: 9vh;
+    background-color: #fff;
+    border:3px solid #ddd;
+  }
+  .pie{
+    padding-top:40vh;
+  }
+  .div-input-address{
+    margin-top: 30vh;
+  }
+  .start{
+    color:blue;
+  }
+  .end{
+    color:#D90472;
+  }
+  .flex{
+    width: 100%;
+    height: 70vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    -ms-flex-align: end;
+        align-items: flex-end;
+  }
+  .address,.price{
+    border-bottom:1px solid #ccc;
+    width: 100vw;
+    height: 10vh;
+  }
+  .price{
+    background-color: #eee;
+    height: 10vh;
+  }
+  .address{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    background-color: white;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 2.5vh;
+  
+  }
+
+  /* side Nav*/
+
+#mapa_header{
+	z-index: 2;
+	position: absolute;
+	top: 2%;
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+#mapa_header #usuario_logo, #usuario_logo2{
+	width: 40px;
+  	height: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    background-color: #E6E6E6;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav div{
+	padding: 2px 10px;
+    font-size: 15px;
+    display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#myModal{
+	z-index: 1000;
+}
+
+.modal-open .modal-backdrop{
+	z-index: 10;
+}
+
+/* Aydee */
+.filtro{
+  position: absolute;
+    top: 76px;
+    left: -5px;
+    z-index: 39;
+}
+ li{
+  list-style: none;
+  
+}
+#datos_usuario{
+position: absolute;
+bottom: 10px;
+}
+.btn-warning{
+  margin: 10px;
+}
+#usuario_logo {
+  position: absolute;
+  left: 60px;
+  top: 10px;
+}
+</style><style type="text/css">*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.momFeed {
+    background:transparent;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+/*vw - wv*/
+.momFeed h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    background: rgb(255, 255, 255 0.5);
+    color: #40c2cf;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.momFeed h3 {
+    font-size: 4vw;
+    color: #626161;
+}
+.platos img {
+    width: auto;
+    height: 10vh;
+    border-radius: 15%;
+}
+.platos{
+    margin: 10px 0;
+}
+.Hierro h3, .Verduras h3{
+ font-weight: bold;
+ /* background: rgba(255, 225, 0, 0.95); */
+ border-radius:  2px;
+ padding: 15px 10px;
+}
+.Hierro label, .Verduras label {
+    padding: 0 5px;
+    margin: 0;
+    color: #000000;
+}
+.extras img{
+    height: 15vh;
+}
+.extras {
+    margin: 10px 0;
+}
+
+.linea {
+    background: white;
+}
+.subtitulo{
+    font-style: italic;
+}
+.Hierro h3 {
+    background: #ffc107;
+    border-radius: 10px;
+}
+
+
+.Verduras h3 {
+    background: #ffc107;
+    border-radius: 10px;
+}
+
+
+.imgNutrifami{
+    height: 20vh;
+}
+.Hierro, .Verduras{
+    margin: 0 10px 19px 10px;
+    padding: 2px;
+}
+.Hierro {
+        background-color: #e1e4e7;
+
+    /* background: #ffffff; */
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+.Verduras {
+    background-color: #e1e4e7;
+    
+    /* background: #ffffff; */
+    border-radius: 10px;
+    margin-top: 6px;
+}
+.proporciones .p2{
+    line-height: 20px;
+}
+.proporciones .cursiva{
+    font-style: italic;
+    font-weight: bold;
+}
+.verduras-mama{
+    margin: 10px 10px;
+    margin-top: 45px;
+}
+
+@media only screen and (min-width: 500px) {
+    .Hierro h3, .Verduras h3{
+        font-weight:lighter;
+    }
+    .momFeed h3 {
+        font-size: 120%;
+        color: #626161;
+        padding: 1%;
+    }
+
+    .momFeed h1 {
+        margin-top: 0%;
+        font-size: 3vw;
+    }
+
+    .momFeed {
+
+        width: 70%;
+
+    }
+}</style><script type="text/javascript" charset="UTF-8" src="./React App_files/common.js.descarga"></script><script type="text/javascript" charset="UTF-8" src="./React App_files/util.js.descarga"></script><script type="text/javascript" charset="UTF-8" src="./React App_files/stats.js.descarga"></script><script type="text/javascript" charset="UTF-8" src="./React App_files/AuthenticationService.Authenticate"></script></head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"><div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="./React App_files/jquery-3.2.1.slim.min.js.descarga" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./React App_files/popper.min.js.descarga" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="./React App_files/bootstrap.min.js.descarga" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="./React App_files/js"></script>
+  
+  <script type="text/javascript" src="./React App_files/bundle.js.descarga"></script>
+
+</body></html>

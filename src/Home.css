@@ -1,0 +1,150 @@
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;   
+    /* background-color: #e1e4e7; */
+    background-color: #eff3f3;
+    /* background-color: #e1e4e7; 
+    background-color: #b4b6b9; */
+    margin: 0 auto;
+    color: rgb(0, 0, 0);  
+    z-index: -1;
+    background-attachment: fixed;
+}
+h2{
+    font-size: 500%;
+}
+
+h1{
+    font-size: 350%;
+    
+}
+
+
+
+
+.home-p{
+    /* color: #FFFFFF;  */
+    color:#626161; 
+    font-family: Arial;   
+}
+
+.conayus-home{
+    text-shadow:5px 5px 10px #FFFFFF;
+}
+
+section{
+        /* border-top: 1px solid #b4b6b9;
+        border-bottom: 1px solid #b4b6b9; */
+        
+        margin: 5%;  
+        /* background-color: #e1e4e7;  */
+        padding: 10%;
+        border-radius: 20px; 
+}
+body .form{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #40c2cf;  
+}
+
+.btn{
+    /* background: #FF0000; */
+    color: rgb(255, 255, 255);
+}
+
+.btn .btn-lg .btn-block .btn-ingresar{
+    width: 100%;
+}
+
+.text-vida{
+    text-align: center;
+    color:  #808080  ;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.first{
+    margin-top: 40%;
+}
+/* div > .text-vida{
+ border-top: 1px solid #b4b6b9;
+
+} */
+@media only screen and (min-width: 500px) {
+        /* h2{
+            font-size: 500%;
+        }
+        
+        h1{
+            font-size: 350%;
+            
+        } */
+        section{
+            /* border-top: 1px solid #b4b6b9;
+            border-bottom: 1px solid #b4b6b9; */
+            
+            margin: 5%;  
+            /* background-color: #e1e4e7;  */
+            padding: 2%;
+            border-radius: 20px; 
+            
+    }
+    section{
+        margin: 0 auto;
+        width: 30%;
+    }
+
+        .first{
+            margin-top: 10%;
+            padding: 5%;
+            /* margin-bottom: 1%; */
+            
+        }
+
+        .text-vida{
+
+            margin-top: 5%;
+            padding: 2%;
+        }
+        body{
+            text-align: center;
+            background-image: url(http://www.madridfruit.com/wp-content/uploads/2017/05/madrid_fruit_frutas_y_verduras_01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+  
+            }
+        /* div {
+            } */
+        form, .first,.row, .text-center, .singupbtn {
+                background: transparent;
+            }
+        div > .text-vida{
+         margin:10%;
+         margin-bottom: 0%;
+        
+        }
+
+        div > .mapContainer{
+
+            background-color: transparent;
+        }
+        #transparent-background{
+                            background-color: rgba(239, 243, 243, 0.4);
+
+                        }
+        #with-div{
+                            margin: 0 auto;
+                            width: 80%;
+                        }
+        /* div .Hierro,.proporciones, .Hierro,  .Verduras{
+               background:  #B3B3B3; 
+
+            } */
+           /* } */
+           #backgrount-mas{
+background-color: rgba(226, 228, 228, 0.8); 
+           }
+}
